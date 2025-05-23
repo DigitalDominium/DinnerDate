@@ -129,7 +129,7 @@ function showLoveLetter() {
   newWindow.document.write(`
     <html>
     <head>
-      <title>Our Valentines Day Date</title>
+      <title>Our Dinner Date</title>
       <style>
         body {
           background: url('Heart.png') no-repeat center center fixed;
@@ -171,13 +171,13 @@ function showLoveLetter() {
       </style>
     </head>
     <body>
-      <h1>Dear Baby Sonia,</h1>
-      <p>I am so excited to meet you for our Valentines day date!</p>
+      <h1>Dear Roxanne,</h1>
+      <p>I am so excited to meet you for our first Dinner date!</p>
       <p>Let's have an amazing time together at:</p>
       <p><strong>Secret Place</strong></p>
-      <p>📍 <a href="https://www.google.com/maps/dir//2,+Kampung+Senibong,+81750+Johor+Bahru,+Johor+Darul+Ta'zim/@1.4832744,103.7397358,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da6bb1c7e83227:0x4da9caf5913a68fd!2m2!1d103.8221378!2d1.4832759?entry=ttu&g_ep=EgoyMDI1MDIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Click here for directions</a></p>
-      <p>📅 Date: <strong>14th February 2025</strong></p>
-      <p>⏰ Time: <strong>20:00 PM</strong></p>
+      <p>📍 <a href="https://www.google.com/maps/dir//Eko+Galleria,+A0118,+3,+Jalan+Eko+Botani+3%2F2,+Taman+Eko+Botani,+79100+Iskandar+Puteri,+Johor+Darul+Ta'zim/@1.441581,103.5341764,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da0be06dbc228d:0xec4d2209ef04b34c!2m2!1d103.6165449!2d1.4416017?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D target="_blank">Click here for directions</a></p>
+      <p>📅 Date: <strong>24th May 2025</strong></p>
+      <p>⏰ Time: <strong>19:00 PM</strong></p>
       <p>Let's celebrate this moment together! ❤️</p>
 
       <button class="confirm-button" onclick="confirmDate()">Confirm Date via WhatsApp</button>
@@ -185,7 +185,7 @@ function showLoveLetter() {
       <script>
         function confirmDate() {
           const phoneNumber = "6587392795";  // Replace with your WhatsApp number
-          const message = "Hi, I've accepted your date!";
+          const message = "Hi Daddy I've accepted your date!";
           const whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
           window.open(whatsappURL, "_blank");
         }
