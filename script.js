@@ -171,21 +171,21 @@ function showLoveLetter() {
       </style>
     </head>
     <body>
-      <h1>Dear Roxanne,</h1>
+      <h1>Dear Rachele,</h1>
       <p>I am so excited to meet you for our first Dinner date!</p>
       <p>Let's have an amazing time together at:</p>
       <p><strong>Secret Place</strong></p>
-      <p>📍 <a href="https://www.google.com/maps/dir//Eko+Galleria,+A0118,+3,+Jalan+Eko+Botani+3%2F2,+Taman+Eko+Botani,+79100+Iskandar+Puteri,+Johor+Darul+Ta'zim/@1.441581,103.5341764,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da0be06dbc228d:0xec4d2209ef04b34c!2m2!1d103.6165449!2d1.4416017?entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoASAFQAw%3D%3D target="_blank">Click here for directions</a></p>
-      <p>📅 Date: <strong>24th May 2025</strong></p>
-      <p>⏰ Time: <strong>19:00 PM</strong></p>
+      <p>📍 <a href="https://www.google.com/maps/dir//Jalan+Laksamana+2,+79100+Iskandar+Puteri,+Johor+Darul+Ta'zim/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x31da0d768a117197:0x7ade054a99d1df20?entry=s&sa=X&ved=2ahUKEwigyMjg16GTAxW2XGwGHZTfIgkQlDt6BAgSEAA&hl=en">Click here for directions</a></p>
+      <p>📅 Date: <strong>15th March 2026</strong></p>
+      <p>⏰ Time: <strong>20:00 PM</strong></p>
       <p>Let's celebrate this moment together! ❤️</p>
 
       <button class="confirm-button" onclick="confirmDate()">Confirm Date via WhatsApp</button>
 
       <script>
         function confirmDate() {
-          const phoneNumber = "6587392795";  // Replace with your WhatsApp number
-          const message = "Hi Daddy I've accepted your date!";
+          const phoneNumber = "601125830761";  // Replace with your WhatsApp number
+          const message = "Hi David I've accepted your date!";
           const whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
           window.open(whatsappURL, "_blank");
         }
